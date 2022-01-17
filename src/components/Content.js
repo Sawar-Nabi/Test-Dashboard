@@ -10,14 +10,6 @@ const Content = () => {
     <Section>
       <div className="topSection">
         <div className="analytics">
-          <Card
-            icon={<AiOutlineDollarCircle />}
-            title="Revenue"
-            data="$380.00"
-          />
-          <Card icon={<AiOutlineCar />} title="Rides" data="170" />
-          <Card icon={<FiTarget />} title="Aspect Revenue" data="$620.00" />
-          <Card icon={<BiUserCircle />} title="Drivers" data="10" />
         </div>
         <div className="faq">
           <div className="faqContent">
