@@ -25,11 +25,10 @@ const Navbar = () => {
 export default Navbar;
 
 const Section = styled.section`
-  padding: 5rem 8rem 0 18rem;
+  padding: 5rem 5rem 0 18rem;
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
-  border-bottom: 2px solid yellow;
   .navTitle {
     letter-spacing: 0.2rem;
     line-height: 2rem;
@@ -51,7 +50,7 @@ const Section = styled.section`
   /* search div */
   .search {
     background: #212121;
-    padding: 1rem 3rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,14 +64,13 @@ const Section = styled.section`
     input {
       background: transparent;
       border: none;
-      border-bottom: 0.1rem solid #343a40;
       color: #ffa000;
       font-family: 'Permanent Marker', cursive;
       font-size: 1.3rem;
       padding: 0 0.7rem;
+      letter-spacing:0.3rem;
       :focus{
         outline:none;
-        border-bottom: 0.1rem solid #ffa000;
       }
 
       &::placeholder{
