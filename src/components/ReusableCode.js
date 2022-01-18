@@ -1,15 +1,8 @@
-import styled from "styled-components";
+import {css} from 'styled-components'
 
-export const CardStyle = () => {
-    return(
-        <Section>
-            <h1>Helloooo</h1>
-        </Section>
-    )
-}
-
-const Section = styled.css`
+export const Card_style = css`
     background: #212121;
-    padding: 1rem 2rem;
+    padding: 1rem 3rem 1rem 1rem;
     color: #fff;
+    border-radius: 0.4rem;
 `;
